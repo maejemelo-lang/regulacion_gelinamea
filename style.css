@@ -384,31 +384,20 @@ footer a {
 
 
 
-/* sa cellphone */
-@media screen and (max-width: 600px) {
 
-    /* Header and navigation */
+    @media (max-width: 768px) {
+
     header {
-        padding: 15px 10px;
-    }
-
-    .logo {
-        font-size: 25px;
+        flex-direction: column;
     }
 
     nav {
-        gap: 12px;
-        flex-wrap: wrap;
         justify-content: center;
+        gap: 15px;
     }
 
-    nav a {
-        font-size: 14px;
-    }
-
-    /* Home section */
-    #home {
-        padding: 35px 15px;
+     #home {
+        padding: 15px 15px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -441,34 +430,22 @@ footer a {
         text-align: center;
     }
 
-    /* Other sections */
-    .section {
-        padding: 35px 18px;
+
+    .skills-grid,
+    .project-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+
+@media (max-width: 500px) {
+
+    .skills-grid,
+    .project-grid {
+        grid-template-columns: 1fr;
     }
 
-    .section-heading {
-        font-size: 25px;
-    }
-
-    .about-content {
-        gap: 18px;
-    }
-
-    .about-text {
-        font-size: 14px;
-        line-height: 1.7;
-    }
-
-    /* Cards */
-    .card {
-        padding: 15px;
-    }
-
-    .card h3 {
-        font-size: 18px;
-    }
-
-    .card p {
-        font-size: 14px;
+    footer {
+        flex-direction: column;
     }
 }
