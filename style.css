@@ -152,7 +152,7 @@ nav a:hover {
 
 .section-heading h2 span,
 .contact-content h2 span {
-    color: var(--pink);
+    color: var(--red);
 }
 
 .section-heading p {
@@ -189,7 +189,7 @@ nav a:hover {
 }
 
 .personal-details strong {
-    color: var(--pink);
+    color: var(--red);
 }
 
 
@@ -218,7 +218,7 @@ nav a:hover {
 
 .skill-card:hover {
     transform: translateY(-5px);
-    border-color: var(--pink);
+    border-color: var(--red);
 }
 
 .skill-card span {
@@ -226,7 +226,7 @@ nav a:hover {
 }
 
 .skill-card h3 {
-    color: var(--pink);
+    color: var(--red);
     margin: 10px 0;
 }
 
@@ -261,7 +261,7 @@ nav a:hover {
 
 .project-card:hover {
     transform: translateY(-5px);
-    border-color: var(--pink);
+    border-color: var(--red);
 }
 
 .project-card img {
@@ -276,13 +276,13 @@ nav a:hover {
 }
 
 .project-info h3 {
-    color: var(--pink);
+    color: var(--red);
     margin-bottom: 10px;
     font-size: 18px;
 }
 
 .project-info a {
-    color: rgb(212, 99, 137);
+    color: var(--pink);
     font-size: 12px;
     text-decoration: none;
     overflow-wrap: anywhere;
@@ -293,7 +293,7 @@ nav a:hover {
 }
 
 .project-card p {
-    color: rgb(245, 167, 167);
+    color: var(rgba(253, 189, 189, 0.795));
     transition: none;
 }
 
@@ -317,7 +317,7 @@ nav a:hover {
 }
 
 .contact-content h2 span {
-    color: var(--pink);
+    color: var(--red);
 }
 
 .contact-content>p {
