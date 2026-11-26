@@ -81,8 +81,8 @@ nav a:hover {
    display: flex;
     align-items: center;
     justify-content: space-between;
-    minheight:330px;
-    width: 330px;
+    minheight:30px;
+    width: 30px;
     background: linear-gradient(120deg,
             #101014,
             #29121B,
