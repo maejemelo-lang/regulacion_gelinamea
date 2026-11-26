@@ -80,22 +80,14 @@ nav a:hover {
 }
 
 .hero {
-    min-height: 550px;
-    padding: 70px 10%;
-
-    display: flex;
+   display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 40px;
-
     background: linear-gradient(120deg,
             #101014,
             #29121B,
             #101014);
 }
-
-
-
 .hero-content {
     flex: 1;
 }
