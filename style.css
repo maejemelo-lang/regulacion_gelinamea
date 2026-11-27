@@ -1,4 +1,3 @@
-
 :root {
     --black: #101014;
     --red: #C62845;
@@ -93,17 +92,15 @@ nav a:hover {
     justify-content: space-between;
     align-items: center;
     gap: 55px;
-    background: linear-gradient(
-        120deg,
-        #101014,
-        #29121B,
-        #101014
-    );
+    background: linear-gradient(120deg,
+            #101014,
+            #29121B,
+            #101014);
 }
 
 .hero-content {
     flex: 1;
-    
+
 }
 
 .hero-content p:first-child {
@@ -111,10 +108,11 @@ nav a:hover {
     font-weight: bold;
     letter-spacing: 3px;
     margin-bottom: 18px;
+
 }
 
 .hero-content h1 {
-    font-size: 48px;
+    font-size: 40px;
     line-height: 1.3;
     margin-bottom: 20px;
 }
@@ -169,11 +167,9 @@ nav a:hover {
 }
 
 #about {
-    background: linear-gradient(
-        135deg,
-        #29121B,
-        #101014
-    );
+    background: linear-gradient(135deg,
+            #29121B,
+            #101014);
 }
 
 .about-content {
@@ -202,11 +198,9 @@ nav a:hover {
 }
 
 #skills {
-    background: linear-gradient(
-        135deg,
-        #29121B,
-        #101014
-    );
+    background: linear-gradient(135deg,
+            #29121B,
+            #101014);
 }
 
 .skills-grid {
@@ -247,11 +241,9 @@ nav a:hover {
 }
 
 #projects {
-    background: linear-gradient(
-        135deg,
-        #29121B,
-        #101014
-    );
+    background: linear-gradient(135deg,
+            #29121B,
+            #101014);
 }
 
 .project-grid {
@@ -309,11 +301,9 @@ nav a:hover {
 }
 
 .contact {
-    background: linear-gradient(
-        135deg,
-        #29121B,
-        #101014
-    );
+    background: linear-gradient(135deg,
+            #29121B,
+            #101014);
     text-align: center;
 }
 
@@ -330,7 +320,7 @@ nav a:hover {
     color: var(--red);
 }
 
-.contact-content > p {
+.contact-content>p {
     color: #DDD4D8;
     margin: 20px 0;
 }
@@ -408,7 +398,7 @@ footer a {
         display: contents;
     }
 
-    .hero-content > p:first-child {
+    .hero-content>p:first-child {
         order: 1;
         font-size: 13px;
         margin-bottom: 0;
@@ -432,7 +422,7 @@ footer a {
         margin-bottom: 5px;
     }
 
-    .hero-content > p:not(:first-child) {
+    .hero-content>p:not(:first-child) {
         order: 4;
         font-size: 14px;
         line-height: 1.7;
@@ -505,7 +495,7 @@ footer a {
         gap: 18px;
     }
 
-    .hero-content > p:first-child {
+    .hero-content>p:first-child {
         font-size: 11px;
         letter-spacing: 2px;
     }
@@ -520,7 +510,7 @@ footer a {
         line-height: 1.3;
     }
 
-    .hero-content > p:not(:first-child) {
+    .hero-content>p:not(:first-child) {
         font-size: 13px;
     }
 
@@ -571,7 +561,7 @@ footer a {
         padding: 17px;
     }
 
-    .contact-content > p {
+    .contact-content>p {
         font-size: 13px;
     }
 
