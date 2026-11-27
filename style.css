@@ -78,17 +78,18 @@ nav a:hover {
 }
 
 .hero {
-   display: flex;
+    display: flex;
     align-items: center;
     justify-content: space-between;
     min-height: 85vh;
-    padding: 70px, 8%;
+    padding: 70px 8%;
     background: linear-gradient(120deg,
-            #101014,
-            #29121B,
-            #101014);
+        #101014,
+        #29121B,
+        #101014);
     gap: 50px;
 }
+
 .hero-content {
     flex: 1;
 }
@@ -110,8 +111,6 @@ nav a:hover {
     color: var(--red);
 }
 
-
-
 .hero-image {
     flex: 1;
     display: flex;
@@ -119,14 +118,14 @@ nav a:hover {
 }
 
 .hero-image img {
+    width: 100%;
+    max-width: 500px;
+    height: 500px;
     object-fit: cover;
-
     border: 3px solid var(--red);
     border-radius: 20px;
-
     box-shadow: 0 0 20px rgba(70, 2, 15, 0.3);
 }
-
 .section-heading {
     text-align: center;
     margin-bottom: 35px;
